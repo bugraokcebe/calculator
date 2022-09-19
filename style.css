@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 100px;
+}
+main{
+    border-radius:10px;
+    border: 5px solid rgb(33, 33, 33);;
+    background-color: rgb(33, 33, 33);
+}
+ul{
+    list-style-type: none;
+}
+li{
+    list-style-type: none;
+}
+button{
+    margin: 2px;
+    background-color: rgb(79, 79, 79);
+    border-radius: 5px;
+    border: none;
+    width: 70px;
+    height: 60px;
+    font-size: large;
+    color: aliceblue;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(109, 109, 109);
+}
+.num{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.screen{
+    display: flex;
+    color: white;
+    height: 100px;
+    width: 300px;
+    font-size: 30px;
+    justify-content: right;
+    align-items:flex-end;
+    margin-bottom: 15px;
+}
+.numerik button{
+    background-color: rgb(109, 109, 109);
+}
+.numerik button:hover{
+    background-color: rgb(79, 79, 79); 
+}
+.esit button{
+    background-color: rgb(193, 193, 193);
+    color: rgb(33, 33, 33);
+}
+.esit button:hover{
+    background-color: rgb(157, 157, 157);   
+}
+
